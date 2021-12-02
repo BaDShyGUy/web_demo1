@@ -1,0 +1,110 @@
+body{
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgba(12.5, 25, 50, 10);
+}
+
+#searchMenu{
+  margin-top: 7%;
+  left: 5%;
+  width: 40%;
+  height: auto;
+  background-color:rgb(25, 50, 100);
+  position: absolute;
+  padding: 10px;
+}
+
+#resultMenu{
+  margin-top: 7%;
+  width: 40%;
+  height: auto;
+  left: 53%;
+  background-color: rgb(25, 50, 100);
+  position: absolute;
+  padding: 10px;
+}
+
+#loginForm{
+	display: none;
+	margin-top: 7%;
+	width: 50%;
+	height: 500px;
+	margin-left: 25%;
+	background-color: rgba(12.5, 25, 50, 10);
+	z-index: 9;
+	border: 10px;
+	border-style: solid;
+	border-color: rgb(25, 50, 100);
+	position: absolute;
+}
+
+.card_container{
+  text-align: center;
+  left: 10px;
+  width: 250px;
+  height: 300px;
+  padding-top: 20px;
+  background-color: rgba(12.5, 25, 50, 10);
+  display: inline-block;
+  border: 2px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  position: relative;
+
+}
+
+.card_container:hover{
+
+}
+
+
+.searchBar{
+  width: 50%;
+  height: 28px;
+}
+
+.submitButton{
+  border: none;
+  padding: 12px;
+  background-color: rgba(12.5, 25, 50, 10);
+}
+
+.headerBar{
+	display: block;
+	width: 85%;
+	height: 50px;
+	position: absolute;
+	background-color: rgb(25, 50, 100);
+	margin-left: 7.5%;
+	margin-bottom: 50px;
+}
+
+.loginButton{
+	position: relative;
+	margin-top: 0.5%;
+	border: 2px;
+	border-style: solid;
+	border-color: white;
+	background-color: rgb(25, 50, 100);
+	height: 30px;
+	font-size: 18px;
+	font-family: Arial-Bold;
+	color: white;
+	
+}
+
+.bigText{
+	font-family: Arial-Bold;
+	font-size: 24px;
+	color: white;
+}
+
+.normalText{
+	font-family: Arial-Bold;
+	font-size: 18px;
+	color: white;
+}
+
+
